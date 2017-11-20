@@ -156,3 +156,6 @@ def main():
             ('msno', 'is_churn')
             VALUES (?, ?);''', to_db)
         db.commit()
+
+if __name__ == 'main':
+    main()
